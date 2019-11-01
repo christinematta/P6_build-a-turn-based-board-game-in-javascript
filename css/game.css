@@ -1,0 +1,241 @@
+.grid {
+    margin: 0;
+    padding: 0;
+    outline: 11px solid #ffffff00;
+    display: inline-block;
+    border: none;
+
+}
+
+.grid-move {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #faebd780;
+    border-radius: 24px;
+}
+
+#board {
+    position: relative;
+    top: 30px;
+    /*    outline: 2px solid #000;*/
+    font-size: 0;
+    margin: auto;
+    /*
+    height: 710.500px;
+    width: 710.500px;
+*/
+    padding: 0;
+    /*    border: none;*/
+    /*    background-image: url(../sand_wave.jpg);*/
+    background-size: cover;
+    border-radius: 23px;
+    bottom: 10px;
+    /*    outline: 1px solid black;*/
+    border: 1px solid;
+    border-radius: 6px;
+
+}
+
+.player-1 {
+    background-image: url(../img/blue-knight-ts.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+}
+
+.player-2 {
+    background-image: url(../img/red-knight-ts.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top;
+}
+
+.sword {
+    background-image: url(../img/sword-ts.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.sword-info {
+    background-image: url(../img/sword-ts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 85px;
+    height: 100px;
+}
+
+.ark-arrow {
+    background-image: url(../img/ark-arrow-ts.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.ark-arrow-info {
+    background-image: url(../img/ark-arrow-ts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 85px;
+    height: 100px;
+}
+
+.axe {
+    background-image: url(../img/axe-ts.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.axe-info {
+    background-image: url(../img/axe-tx.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 85px;
+    height: 100px;
+
+}
+
+.pin-ball {
+    background-image: url(../img/pin-ball-ts.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.pin-ball-info {
+    background-image: url(../img/pin-ball-ts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 85px;
+    height: 100px;
+
+}
+
+.knife {
+    background-image: url(../img/knife-ts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.knife-info {
+    background-image: url(../img/knife-ts.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 85px;
+    height: 100px;
+}
+
+.life {
+    background-image: url(../img/heart-ts.gif);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.obstacle {
+
+    background-image: url(../img/rocks-1-ts.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+#player-info-1 {
+    position: absolute;
+    top: 8px;
+    font-size: 0;
+    height: 712.500px;
+    width: 712.500px;
+    padding: 0;
+    border: none;
+    background-image: url(../img/background-1.png);
+    background-size: 429px 749px;
+    background-repeat: no-repeat;
+    margin-left: -1%;
+}
+
+#player-info-2 {
+    position: absolute;
+    top: 8px;
+    font-size: 0;
+    height: 712.500px;
+    width: 712.500px;
+    padding: 0;
+    border: none;
+    background-image: url(../img/background-inv-1.png);
+    background-size: 429px 749px;
+    background-repeat: no-repeat;
+    margin-left: 71%;
+}
+
+.btn-attack {
+    margin-left: 158px;
+    background-color: #b50617d9;
+    width: 27%;
+    height: 5%;
+    border-radius: 12px;
+    color: white;
+    border-color: transparent;
+}
+
+.btn-defend {
+    margin-left: 158px;
+    background-color: #1e7e34d9;
+    width: 27%;
+    height: 5%;
+    border-radius: 12px;
+    color: white;
+    border-color: transparent;
+    margin-top: 14px;
+}
+
+.game-over {
+    position: absolute;
+    height: 712.500px;
+    width: 712.500px;
+    background-image: url(../img/background-inv-2.png);
+    background-size: 545px 587px;
+    background-repeat: no-repeat;
+    z-index: 9999999;
+    background-position: center;
+        display: none;
+}
+
+.game-over-style {
+    text-align: center;
+    margin-top: 31%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#player-win {
+    margin-top: 5%;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#winner-img {
+    height: 175px;
+    margin-top: 3%;
+    margin: 3px 297px;
+
+}
+
+body {
+    background-image: url(../img/sand_wave.jpg);
+    background-size: cover;
+}
