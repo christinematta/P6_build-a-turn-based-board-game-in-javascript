@@ -17,4 +17,4 @@ Start by randomly generating the game map. Each box can be either:
 * As soon as the life points of a player (initially 100) falls to 0, they lose. A message appears and the game is over. 
 
 ### you can view the project 
-[https://christineonsi.github.io/Turn_base_board_game_javascript/.](https://christineonsi.github.io/Turn_base_board_game_javascript/.)
+[https://christineonsi.github.io/Turn_base_board_game_javascript/.](https://christineonsi.github.io/Turn_base_board_game_javascript/html/index.html.)
