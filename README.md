@@ -15,4 +15,4 @@ Start by randomly generating the game map. Each box can be either:
 * The player can choose to attack or defend against the next shot  
 * If the player chooses to defend themselves, they sustain 50% less damage than normal  
 * As soon as the life points of a player (initially 100) falls to 0, they lose. A message appears and the game is over. 
-### If you want to play the game click here:### [Start the Game!](https://christinematta.github.io/P6_build-a-turn-based-board-game-in-javascript/html/index.html)
+#### If you want to play the game click here: [Start the Game!](https://christinematta.github.io/P6_build-a-turn-based-board-game-in-javascript/html/index.html)
