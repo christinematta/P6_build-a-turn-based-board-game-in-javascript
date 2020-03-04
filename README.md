@@ -16,3 +16,4 @@ Start by randomly generating the game map. Each box can be either:
 * If the player chooses to defend themselves, they sustain 50% less damage than normal  
 * As soon as the life points of a player (initially 100) falls to 0, they lose. A message appears and the game is over. 
 
+### [https://christinematta.github.io/P6_build-a-turn-based-board-game-in-javascript/](https://christinematta.github.io/P6_build-a-turn-based-board-game-in-javascript/)
